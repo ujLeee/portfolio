@@ -392,7 +392,7 @@
 			    <div class="item">
                                 <h3 class="title">보안시스템개발팀 선임 연구원<span class="place">  페스카로</span> <span class="year">(2022.04 - Present)</span></h3>
                                 <p style="font-family: 'Noto Sans KR', sans-serif;">차량 이상행위 판단 라이브러리 검증 시뮬레이터 개발에 참여하였고, 자율주행 및 모빌리티 전문기업 대상 제어기 인증서 현황 조회 시스템 API 서버의 개발을 담당하였습니다. <br>
-					또한 국내 자동차 기업을 대상으로 규제 인증 대응 SUMS, SIEMS, 사이버 보안 관제센터 시스템과 국내 전기차 충전기 제조 기업의 충전기 관리 시스템의 서버 개발을 진행하였습니다.</p>
+					또한 국내 자동차 기업을 대상으로 규제 인증 대응 SUMS, SIEMS, 사이버 보안 관제센터 시스템과 국내 전기차 충전기 제조 기업 충전기 관리 시스템의 서버 개발을 진행하였습니다.</p>
                             </div><!--//item-->
 
                             <div class="item">
@@ -412,7 +412,97 @@
                <section class="latest section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Projects</h2>
-                        <div class="content">    
+                        <div class="content">
+
+			    <h5 class="title">페스카로</h5>
+                            <br>
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/-" alt="BCS" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">차량 충전기 관리 시스템 API 서버 및 충전기와의 인터페이스(2023.12-present)</a></h3>
+                                    <h2 class="title"><a target="_blank">[고객사]: 국내 전기차 충전기 제조 기업</a></h2>
+				    <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
+                                        - 시스템 요구사항 분석 및 초기 설계안 작성<br>
+                                        - 시스템 도메인 및 테이블 설계<br>
+                                        - 프론트/백엔드 간 API 명세 설계<br>
+                                        - 서버/충전기 간 인터페이스 명세 설계<br>
+					- SpringBoot/JAVA 기반의 백엔드 개발 및 JPA/QueryDsl 을 사용한 데이터 관리(구성품/프로젝트/코드/릴리즈/사용자/충전기)<br>
+					- Redis 를 사용한 충전기와의 인터랙션 요청/응답 처리<br>
+					- spring data mongodb 를 사용한 로그성 데이터 관리(인터페이스 로그 및 충전기에서 전송하는 상태 로그)<br>
+					- Minio Client 를 사용한 충전기 릴리즈 이미지 파일 및 업데이트 패키지 관리<br>
+					- 충전기 업데이트 패키지 생성 로직 개발(원본데이터 LZF 압축/암호화)<br>
+                                    </p>
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/-" alt="AR WEB" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">차량 사이버 보안 규제 인증 대응 시스템 통합 관제 시스템 API 서버 개발(2023.11-2023.12)</a></h3>
+                                    <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
+                                        - 시스템 도메인 및 테이블 설계<br>
+                                        - 프론트/백엔드 간 API 명세 설계<br>
+                                        - SpringBoot/JAVA 기반의 백엔드 개발 및 JPA/QueryDsl 을 사용한 데이터 관리(파일/매뉴얼/양식/사용자/타 시스템 연계로그)<br>                                     
+					- Minio Client 를 사용한 시스템 별 양식 파일 관리
+                                    </p>
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.PNG" alt="ACS" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">차량 사이버 보안 규제 인증 대응을 위한 SIEMS 시스템 API 서버 개발(2023.01-2023.10)</a></h3>
+                                    <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
+                                        - 프론트/백엔드 간 API 명세 설계<br>
+                                        - 서버/인포콘 및 생산정비 시스템 간 API 명세 설계<br>
+                                        - SpringBoot/JAVA 기반의 백엔드 개발 및 MyBatis/JPA/QueryDsl 을 사용한 데이터 관리(보안로그 포맷/차량상태/차량SW/분류식별자)<br>
+                                        - spring data mongodb 를 사용한 로그성 데이터 관리(차량 보안 로그 수집 및 통계, 메일 로그)<br>
+                                        - 최신 포맷 및 소프트웨어 등록 시 차량 상태 변경 프로세스 개발(정상차량~비정상차량 변경 로직)
+                                        - 메일 알림 서비스 개발(실시간 및 spring batch/Quartz 를 사용한 배치 스케줄링)<br>
+                                    </p>
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="SCM" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">차량 사이버 보안 규제 인증 대응을 위한 SUMS 시스템 API 서버 개발(2022.10-2022.12)</a></h3>
+                                    <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
+                                        - 프론트/백엔드 간 API 명세 설계<br>
+                                        - SpringBoot/JAVA 기반의 백엔드 개발 및 MyBatis/JPA/QueryDsl 을 사용한 데이터 관리(프로젝트/제어기/규제항목/제어기 커밋/업데이트 영향도 평가)<br>
+                                        - spring data mongodb 를 사용한 로그성 데이터 관리(메일 로그)<br>
+                                    </p>
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="WIM" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a target="_blank">제어기의 키 및 인증서 생성 형황 조회 시스템 API 서버 개발(2022.08-2022.09)</a></h3>
+                                    <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
+                                        - SpringBoot/JAVA 기반의 백엔드 개발<br>
+                                        - MyBatis/JPA 를 사용한 데이터 관리(사용자/접속 로그/배치/EOL장비)<br>
+                                    </p>
+                                    <!-- <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p> -->
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <br>	
 
                             <h5 class="title">주식회사 와토솔루션</h5>
                             <br>
@@ -422,7 +512,7 @@
                                 <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-6.PNG" alt="BCS" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a target="_blank">Block Control System(2022.1-)</a></h3>
+                                    <h3 class="title"><a target="_blank">Block Control System(2022.01-2022.03)</a></h3>
                                     <p class="mb-2" style="font-family: 'Noto Sans KR', sans-serif;">
                                         - Spring Framework 기반의 모바일 모니터링 웹 서비스 개발<br>
                                         - JSP/HTML/CSS/Bootstrap 을 사용한 UI 개발<br>
